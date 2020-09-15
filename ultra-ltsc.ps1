@@ -35,6 +35,8 @@ $tweaks = @(
 	"InstallNotepadplusplus",
 	"InstallQBittorrent",
 	"InstallVLC",
+	"InstallSteam",
+	"InstallEpicGamesStore",
 
 	### Windows Apps
 	"DebloatAll",
@@ -202,6 +204,16 @@ Function InstallTitusProgs {
 Function InstallAdobe {
 	Write-Output "Installing Adobe Acrobat Reader"
 	choco install adobereader -y
+}
+
+Function InstallSteam {
+	Write-Output "Installing Steam"
+	choco install steam -y
+}
+
+Function InstallEpicGamesStore {
+	Write-Output "Installing Epic Games Launcher"
+	choco install epicgameslauncher -y
 }
 
 Function InstallJava {
