@@ -224,6 +224,11 @@ Function InstallVLC {
 	choco install vlc -y
 }
 
+Function InstallNotepadplusplus {
+	Write-Output "Installing Notepad ++"
+	choco install notepadplusplus -y
+}
+
 ##########
 # Privacy Tweaks
 ##########
