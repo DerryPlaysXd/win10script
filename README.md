@@ -17,14 +17,7 @@ I encourage people to fork this project and comment out things they don't like! 
 
 Comment any thing you don't want out... Example:
 
+## One Command To Rule Them All
 ```
-########## NOTE THE # SIGNS! These disable lines This example shows UACLow being set and Disabling SMB1
-### Security Tweaks ###
-	"SetUACLow",                  # "SetUACHigh",
-	"DisableSMB1",                # "EnableSMB1",
-
-########## NOW LETS SWAP THESE VALUES AND ENABLE SMB1 and Set UAC to HIGH
-### Security Tweaks ###
-	"SetUACHigh",
-	"EnableSMB1",
+https://git.io/JJ5dN
 ```
