@@ -19,5 +19,5 @@ Comment any thing you don't want out... Example:
 
 ## One Command To Rule Them All
 ```
-https://git.io/JJ5dN
+powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JJ5dN')"
 ```
